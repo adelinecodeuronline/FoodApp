@@ -1,4 +1,4 @@
-@media (max-width: 370px) {
+@media (min-width: 370px) {
 
 :root {
     --white: #ffffff;
@@ -15,6 +15,7 @@ body {
 
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
 
