@@ -19,7 +19,8 @@
     color: var(--white);
     padding: 1px;
     text-align: center;
-    background-image: no-repeat center/80% url("./assets/images/banner_wave.svg");
+    background-image: no-repeat url('https://github.com/adelinecodeuronline/FoodApp/blob/main/assets/images/banner_wave.svg');
+    
     
     }
 
@@ -41,7 +42,7 @@
 
     #logo {
 
-        width: 10%;
+        width: 20%;
     }
 
 
@@ -71,7 +72,8 @@
 
     section {
         gap: 50px;
-        height: 1100px;
+        margin-top: 300px;
+        margin-bottom: 300px;
         flex-direction: row;
     }
 
@@ -92,7 +94,7 @@
 
 
   section div {
-      width: 50%;
+      width: 80%;
   }
 
 
@@ -111,6 +113,14 @@ margin: 0;
 
 
 
+
+#section2 {
+ 
+  padding: 0;
+ 
+}
+
+
 #section2 h2 {
 
    
@@ -120,8 +130,39 @@ margin: 0;
 
 
 
+#section3 {
+
+    display: flex;
+}
 
 
+    #section3 img {
+
+        width: 150%;
+        height: auto;
+        justify-content: center;
+        
+       
+    }
+
+
+
+ /*Footer*/
+
+
+ footer {
+    display: flex;
+    height: 80px;
+    gap: 400px;
+    justify-content: center;
+ }
+
+
+
+ footer p {
+  transform: translateY(10px);
+    
+}
 
 
 

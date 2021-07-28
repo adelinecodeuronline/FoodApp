@@ -56,6 +56,9 @@ nav ul {
     border-radius: 10px;
 }
 
+
+/*contenu*/
+
 h1 {
 font-size: 3em;
 font-weight: 700;
@@ -96,10 +99,7 @@ section {
       border-radius: 10px;
       padding: 15px 25px;
       background-color: var(--green);
-    background-image: url("./assets/images/button_wave.svg");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: auto;
+      background-image: no-repeat url('https://github.com/adelinecodeuronline/FoodApp/blob/main/assets/images/button_wave.svg'); 
       margin: 100px;
     }
 
@@ -127,7 +127,72 @@ section {
      
     }
 
+    #section3 h2 {
 
+        font-size: 3em;
+        text-align: center;
+        color: var(--green);
+     
+    }
+
+
+    #section3 img {
+
+   transform: translateX(30px);
+    }
+
+    #bold {
+        font-weight: bold;
+        line-height: 3em;
+        color: var(--gray-dark);
+    }
+
+    #section3 p {
+
+        white-space: pre-wrap;
+    }
+
+
+
+    /*Footer*/
+
+
+    footer {
+    background-color: var(--green-light);
+    height: 90px;
+    
+}
+
+
+footer p {
+    color: var(--green-dark);
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+    transform: translateY(20px);
+    
+}
+
+footer ul {
+
+    transform: translateY(15px);
+}
+
+
+footer li {
+    display: inline-block;
+    text-align: left;
+    padding-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--blue-dark);
+    font-weight: bold;
+    margin-left: -10px;
+    
+}
 
 
 
