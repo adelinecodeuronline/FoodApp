@@ -1,0 +1,39 @@
+@media (max-width: 370px) {
+
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}
+
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+
+#bandeau_nav {
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
