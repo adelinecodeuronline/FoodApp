@@ -107,7 +107,26 @@ section {
 
         width: 76%;
         height: auto;
+        margin-top: 100px;
     }
+
+    #section2 {
+
+        background-color: var(--green-light);
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+
+
+    #section2 h2 {
+
+        font-size: 3em;
+        text-align: center;
+        color: var(--green);
+     
+    }
+
 
 
 
