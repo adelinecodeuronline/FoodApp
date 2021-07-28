@@ -18,10 +18,97 @@ body {
     margin: 0;
 }
 
+/*nav*/
 
 #bandeau_nav {
 display: none;
 }
+
+
+nav {
+
+    display: flex;
+    
+    
+}
+
+
+nav ul {
+    display: none;
+}
+
+
+#logo {
+
+    width: 8%;
+}
+
+#logo_and_burger {
+    margin-top: 15px;
+    transform: translateX(30px);
+}
+
+#burger {
+
+    margin-left: 230px;
+    background-color: var(--green-light);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+font-size: 3em;
+font-weight: 700;
+text-align: center;
+letter-spacing: -0.04em;
+white-space: pre-wrap;
+line-height: 1em;
+
+}
+
+#blue_word {
+
+    color: var(--green);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+    section p {
+        font-size: 17px;
+        text-align: center;
+        color: var(--blue-dark);
+        font-weight: 400;
+        padding: 0 20px;
+        line-height: 1.3em;
+        margin-bottom : 50px;
+    }
+
+    .btn{
+
+      text-decoration: none;
+      color: var(--white);
+      font-weight: 300;
+      border-radius: 10px;
+      padding: 15px 25px;
+      background-color: var(--green);
+    background-image: url("./assets/images/button_wave.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+      margin: 100px;
+    }
+
+    section img {
+
+        width: 76%;
+        height: auto;
+    }
+
 
 
 

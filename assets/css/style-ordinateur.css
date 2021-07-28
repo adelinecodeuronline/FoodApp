@@ -11,10 +11,7 @@
 }
 
 
-#burger {
-
-    display: none;
-}
+/*bandeau top*/
 
 #bandeau_nav {
     display: block;
@@ -22,14 +19,94 @@
     color: var(--white);
     padding: 1px;
     text-align: center;
+    background-image: no-repeat center/80% url("./assets/images/banner_wave.svg");
     
     }
 
     .container {
     width: 60%;
     margin: auto;
+    
     }
 
+
+    /*nav*/
+
+
+    #burger {
+
+        display: none;
+    }
+
+
+    #logo {
+
+        width: 10%;
+    }
+
+
+   
+
+     nav ul {
+        display: inline-block;
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        margin-top: 50px;
+        margin-left: 150px;
+        
+    }
+
+   
+    nav a {
+
+        text-decoration: none;
+        color: var(--gray-dark);
+        text-align: center;
+        
+    }
+
+
+    /*contenu*/
+
+    section {
+        gap: 50px;
+        height: 1100px;
+        flex-direction: row;
+    }
+
+
+    h1 {
+        font-size: 4em;
+       text-align: left;
+       white-space: normal;
+               
+        }
+
+
+    section p {
+        
+        text-align: left;
+     
+  }
+
+
+  section div {
+      width: 50%;
+  }
+
+
+
+  .btn{
+margin: 0;
+  }
+
+
+  section img {
+
+    width: 100%;
+    height: auto;
+}
 
 
 
