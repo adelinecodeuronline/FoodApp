@@ -60,13 +60,14 @@ nav ul {
 
 /*contenu*/
 
-
+.container2 img {
+  margin-bottom: 40px;  
+}
 
 .container {
 
     width: auto;
     
-   
 }
 
 
@@ -124,9 +125,7 @@ section {
     #section2 {
 
         background-color: var(--green-light);
-        padding-bottom: 50px;
-        padding-top: 50px;
-        margin-top: 50px;
+       
         
     }
 
