@@ -55,7 +55,7 @@
         gap: 50px;
         list-style: none;
         margin-top: 50px;
-        margin-left: 150px;
+        margin-left: 450px;
         
     }
 
@@ -97,7 +97,7 @@
     h1 {
         font-size: 4em;
        text-align: left;
-       white-space: normal;
+       white-space: none;
                
         }
 
@@ -153,6 +153,7 @@ margin: 0;
 #section3 {
 
     display: flex;
+    margin-top: 100px;
 }
 
 
@@ -172,35 +173,23 @@ margin: 0;
         width: 100%;
         height: auto;
         justify-content: center;
-        margin-top: 100px;
-        
-       
-    }
-
-
-
-    
-    #section3 img:nth-child(1) {
-
-       transform: translateY(30px);
-        
-       
-    }
-
-
-    #section3 img:nth-child(1) {
-
+        margin-top: 50px;
         margin-bottom: 100px;
-         
         
-     }
+       
+    }
 
+    #section3 div:nth-child(1) {
 
-    
+        margin-bottom: 115px;
+    }
+
+  
 
 
     #section3 h2 {
-        transform: translateX(400px);
+        transform: translateX(360px);
+        margin-top: 10px;
            
     }
 
@@ -212,8 +201,7 @@ margin: 0;
     }
 
 
-
-    
+     
 
 
 
