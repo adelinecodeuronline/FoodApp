@@ -1,4 +1,4 @@
-@media (min-width: 370px) {
+
 
 :root {
     --white: #ffffff;
@@ -45,7 +45,8 @@ nav ul {
 
 #logo_and_burger {
     margin-top: 15px;
-    transform: translateX(30px);
+    margin-left: 45px;
+    
 }
 
 #burger {
@@ -58,6 +59,16 @@ nav ul {
 
 
 /*contenu*/
+
+
+
+.container {
+
+    width: auto;
+    
+   
+}
+
 
 h1 {
 font-size: 3em;
@@ -98,9 +109,9 @@ section {
       font-weight: 300;
       border-radius: 10px;
       padding: 15px 25px;
-      background-color: var(--green);
-      background-image: no-repeat url('https://github.com/adelinecodeuronline/FoodApp/blob/main/assets/images/button_wave.svg'); 
+      background: var(--green) no-repeat url('../images/button_wave.svg'); 
       margin: 100px;
+     
     }
 
     section img {
@@ -116,6 +127,7 @@ section {
         padding-bottom: 50px;
         padding-top: 50px;
         margin-top: 50px;
+        
     }
 
 
@@ -127,6 +139,8 @@ section {
      
     }
 
+
+    
     #section3 h2 {
 
         font-size: 3em;
@@ -208,4 +222,3 @@ footer a {
 
 
 
-}
